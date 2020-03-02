@@ -4,7 +4,7 @@
 import cv2
 import numpy as np 
 
-vid = cv2.VideoCapture("./data/sample.mp4")
+vid = cv2.VideoCapture("./data/shore.mov")
 
 fcc = cv2.VideoWriter_fourcc(*"XVID")
 out = cv2.VideoWriter("./data/new_sample.avi", fcc, 28, (640, 360))
